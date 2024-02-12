@@ -34,16 +34,16 @@
  /*fuente de google fonts*/
  
 /*header*/
-/*color de la navbar*/
-.menu-navegacion {
-  background-color: #1c160d;;
-}
-/*main*/
 main {
   display: flex;
   flex-direction: column;
   align-items: stretch;
 }
+/*color de la navbar*/
+.menu-navegacion {
+  background-color: #1c160d;;
+}
+
 /*contenido del indice */
 h1 {
   background-color: #4d211f;
@@ -63,48 +63,17 @@ h1 {
   text-align: center;
   font-style: italic;
 }
-.home-section h2 {
-text-align: center;
-}
-
-/*seccion de lanzamiento*/
-.descripcion-lanzamiento {
-  text-align: center;
-}
-.descripcion-lanzamiento p {
-  font-weight:normal;
-  font-size: 150%;
-  text-align: center;
-}
 
 /*seccion del video home*/
-.videoclip-section {
+.container h2 {
   text-align: center;
-}
-.videoclip-section h2 {
   font-weight: bold;
   font-size: 200%;
   margin: 1.5rem;
 }
 
-/*  Video Responsive */
-.videoclip-section {
-    overflow:hidden;
-    padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
-    position:relative;
-    height:0;
-}
-
-.videoclip-section iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
 /*contenido de about us*/
-.about-dreamcatcher-flex {
+.about-dreamcatcher {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -114,6 +83,7 @@ text-align: center;
   text-align: center;
   line-height: 1.5;
   margin: 2.5rem;
+  margin-bottom: 0;
 }
 
 /*contenido de miembros*/
@@ -121,21 +91,27 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  }
+  margin-top: 5rem;
+}
+
 .miembros section {
-  padding: 2rem;
   margin: 2rem;
   text-align: center;
   width: 20rem;
 }
+
 .miembros img {
   width: 20rem;
 }
+
 .miembros h2 {
   font-weight: bold;
+  margin: 0.5rem;
 }
+
 .miembros p {
   width: 20rem;
+  padding: 0.5rem;
 }
 
 /*contenido de discografia*/
@@ -143,17 +119,16 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
+  margin-top: 5rem;
 }
 
 .discos{
-  margin-top: 5rem;
-  padding: 2rem;
   text-align: center;
-  width: 20rem;
+  width: 18rem;
+  margin-bottom: 2rem;
 }
 .discos img {
-  width: 20rem;
+  width: 18rem;
 
 }
 .discos h2 {
@@ -165,37 +140,54 @@ text-align: center;
 }
 
 /*contenido de fans*/
-
 .fan-info {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fan-info p{
+  text-align: justify;
   line-height: 1.5;
   margin: 2.5rem;
 }
+
 .fan-info img {
-  width: 20rem;
+  width: 18rem;
   margin-bottom: 2.5rem;
 }
+
 .fan-info h2 {
   font-weight: bold;
-  font-size: 200%;
+  font-size: 250%;
   text-align: center;
+  margin: 3rem;
 }
 
 .fan-lightstick-info {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fan-lightstick-info p {
+  text-align: justify;
   line-height: 1.5;
   margin: 2.5rem;
-
 }
+
 .fan-lightstick-info img {
-  width: 20rem;
+  width: 18rem;
   margin-bottom: 2.5rem;
 }
+
 .fan-lightstick-info h2 {
   font-weight: bold;
-  font-size: 200%;
+  font-size: 250%;
   text-align: center;
+  margin: 3rem;
 }
+
 /* Estilos para seccion de fanclub*/
 .fanclub-section h3 {
   font-weight: bold;
@@ -208,29 +200,27 @@ text-align: center;
 .formulario {
   display: flex;
   justify-content: center;
-
 }
 
 .formulario {
-    border: 1px solid #ccc; /* Cambia el color y el grosor del borde según tus preferencias */
-    padding: 1.5rem; /* Agrega algún espacio interno para mejorar el aspecto visual */
-    border-radius: 10px; /* Opcional: Agrega esquinas redondeadas al formulario */
+  border: 1px solid #ccc; 
+  padding: 1.5rem; 
+  border-radius: 10px; 
 }       
 
 label {
   font-weight: bold;
 }
-input[type="text"],
-textarea {
+input[type="text"], textarea {
   width: 95%;
 }
 textarea {
-resize: vertical;
+  resize: vertical;
 }   
 
 .boton{
-    background-color: #860000;
-    color: #fff;
+  background-color: #860000;
+  color: #fff;
 }
 
 /*footer*/
@@ -239,31 +229,83 @@ resize: vertical;
   color: #fff;
   display: flex;
   font-size: small;
-  margin-top: 13rem;
+  margin-top: 10rem;
   align-items: center;
   flex-direction: column;
 }
 
 .redes-footer {
-    text-align: center;
-    margin: 1rem;
+  text-align: center;
+  margin: 1rem;
 }
 .container-footer {
-    display:flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 2rem;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
 .enlaces-footer a{
-    text-decoration: none;
-    color: white;
-    font-size: 100%;
-    padding: 0.5rem;
-    text-align: justify;
+  text-decoration: none;
+  color: white;
+  font-size: 100%;
+  padding: 0.5rem;
+  text-align: justify;
 }
 .pie-de-pagina p {
   text-align: center;
   margin-top: 1rem;
 }
 
+/*MEDIA Q*/
+
+/* desktop a tablet*/
+@media (min-width: 481px) and (max-width: 780px){
+h1 {
+  font-size: 250%;
+}
+.home-section p {
+  font-size:x-large;
+  margin: 1rem;
+}
+.container h2 {
+  font-size: 150%;
+}
+.about-dreamcatcher p {
+  text-align: center;
+  line-height: 1.5;
+  margin: 1rem;
+}
+.fanclub-section h3 {
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  margin: 2rem;
+}    
+}
+
+/* a mobile*/
+@media (min-width: 320px) and (max-width: 480px){
+h1 {
+  font-size: 200%;
+}
+.home-section p {
+  font-size:large;
+  margin: 1rem;
+}
+.container h2 {
+  font-size: 100%;
+}
+.about-dreamcatcher p {
+  text-align: center;
+  line-height: 1.5;
+  margin: 1rem;
+}
+.fanclub-section h3 {
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+  margin: 2rem;
+}    
+}
+ /*fin de media querys*/
