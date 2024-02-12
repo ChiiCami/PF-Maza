@@ -1,0 +1,269 @@
+/* RESET conf basica de mis estilos*/
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+/*fuente de google fonts*/
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+ /*fuente de google fonts*/
+ 
+/*header*/
+/*color de la navbar*/
+.menu-navegacion {
+  background-color: #1c160d;;
+}
+/*main*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+/*contenido del indice */
+h1 {
+  background-color: #4d211f;
+  text-align: center;
+  color: #fff;
+  font-size: 300%;
+  font-weight: bold;
+  padding: 5%;
+  margin-bottom: 0
+}
+
+/*home */
+.home-section p {
+  font-size: xx-large;
+  color: #860000; 
+  margin: 5rem;
+  text-align: center;
+  font-style: italic;
+}
+.home-section h2 {
+text-align: center;
+}
+
+/*seccion de lanzamiento*/
+.descripcion-lanzamiento {
+  text-align: center;
+}
+.descripcion-lanzamiento p {
+  font-weight:normal;
+  font-size: 150%;
+  text-align: center;
+}
+
+/*seccion del video home*/
+.videoclip-section {
+  text-align: center;
+}
+.videoclip-section h2 {
+  font-weight: bold;
+  font-size: 200%;
+  margin: 1.5rem;
+}
+
+/*  Video Responsive */
+.videoclip-section {
+    overflow:hidden;
+    padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
+    position:relative;
+    height:0;
+}
+
+.videoclip-section iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*contenido de about us*/
+.about-dreamcatcher-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-dreamcatcher p {
+  text-align: center;
+  line-height: 1.5;
+  margin: 2.5rem;
+}
+
+/*contenido de miembros*/
+.miembros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+.miembros section {
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  width: 20rem;
+}
+.miembros img {
+  width: 20rem;
+}
+.miembros h2 {
+  font-weight: bold;
+}
+.miembros p {
+  width: 20rem;
+}
+
+/*contenido de discografia*/
+.seccion-albumes{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.discos{
+  margin-top: 5rem;
+  padding: 2rem;
+  text-align: center;
+  width: 20rem;
+}
+.discos img {
+  width: 20rem;
+
+}
+.discos h2 {
+  font-weight: bold;
+  margin: 1rem;
+}
+.discos p {
+  text-align: center;
+}
+
+/*contenido de fans*/
+
+.fan-info {
+  text-align: center;
+  line-height: 1.5;
+  margin: 2.5rem;
+}
+.fan-info img {
+  width: 20rem;
+  margin-bottom: 2.5rem;
+}
+.fan-info h2 {
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+}
+
+.fan-lightstick-info {
+  text-align: center;
+  line-height: 1.5;
+  margin: 2.5rem;
+
+}
+.fan-lightstick-info img {
+  width: 20rem;
+  margin-bottom: 2.5rem;
+}
+.fan-lightstick-info h2 {
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+}
+/* Estilos para seccion de fanclub*/
+.fanclub-section h3 {
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+  margin: 4rem;
+}
+
+/* Estilos para el formulario de fans*/
+.formulario {
+  display: flex;
+  justify-content: center;
+
+}
+
+.formulario {
+    border: 1px solid #ccc; /* Cambia el color y el grosor del borde según tus preferencias */
+    padding: 1.5rem; /* Agrega algún espacio interno para mejorar el aspecto visual */
+    border-radius: 10px; /* Opcional: Agrega esquinas redondeadas al formulario */
+}       
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+textarea {
+  width: 95%;
+}
+textarea {
+resize: vertical;
+}   
+
+.boton{
+    background-color: #860000;
+    color: #fff;
+}
+
+/*footer*/
+.pie-de-pagina {
+  background-color: #1c160d;
+  color: #fff;
+  display: flex;
+  font-size: small;
+  margin-top: 13rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.redes-footer {
+    text-align: center;
+    margin: 1rem;
+}
+.container-footer {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.enlaces-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    padding: 0.5rem;
+    text-align: justify;
+}
+.pie-de-pagina p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
