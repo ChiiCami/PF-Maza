@@ -1,0 +1,22 @@
+/*contenido de discografia*/
+.seccion-albumes{ 
+    @include flex-wrap;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+  
+  .discos{
+    text-align: center;
+    width: 18rem;
+    margin-bottom: 2rem;
+    img {
+        width: 18rem;
+    }
+    h2 {
+        font-weight: bold;
+        margin: 1rem;
+    }
+    p {
+        text-align: center;
+    }
+}

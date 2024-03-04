@@ -1,0 +1,17 @@
+/*home */
+.home-section {
+    p {
+        font-size: xx-large;
+        color: $red; 
+        margin: 5rem; 
+        text-align: center;
+        font-style: $font-style-home;
+    }
+}
+  /*seccion del video home*/
+    .lanzamiento {
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 1.5rem;
+}

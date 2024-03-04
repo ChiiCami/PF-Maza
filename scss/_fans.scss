@@ -1,0 +1,61 @@
+/*contenido de fans*/
+.fan-info{
+    @include column-center;
+    p{
+        text-align: justify;
+        line-height: 1.5;
+        margin: 2.5rem;
+    }
+    img {
+        width: 18rem;
+        margin-bottom: 2.5rem;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 250%;
+        text-align: center;
+        margin: 3rem;
+    }
+}
+
+.fan-lightstick-info {
+    @include column-center;
+    p {
+        text-align: justify;
+        line-height: 1.5;
+        margin: 2.5rem;
+    }
+    img {
+        width: 18rem;
+        margin-bottom: 2.5rem;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 250%;
+        text-align: center;
+        margin: 3rem;
+    }
+}
+/* Estilos para seccion de fanclub*/
+.fanclub-section h3 {
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    margin: 4rem;
+} 
+/* Estilos para el formulario de fans*/
+.formulario {
+    @include form-fans; 
+    label {
+        font-weight: bold;
+    }
+    input[type="text"], textarea {
+        width: 95%;
+    }
+    textarea {
+        resize: vertical;
+    }       
+    .boton{
+        @include boton-color;
+    }
+}

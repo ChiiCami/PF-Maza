@@ -1,0 +1,23 @@
+//mixin  -declaro - invocar -@include
+//mixin sin parametros//
+@mixin flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin form-fans{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc; 
+    padding: 1.5rem; 
+    border-radius: 10px;
+}
+@mixin boton-color{
+    background-color: $red;
+    color: $font-color;
+}

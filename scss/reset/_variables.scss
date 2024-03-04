@@ -1,0 +1,30 @@
+
+//fuentes//
+$proyect-font:"Roboto", sans-serif;
+$font-style-home: italic;
+
+
+
+//colores con todos los colores/
+$bckgr-navbar-footer: #1c160d;
+$bckgr-h1-color: #4d211f;
+$font-color: #fff;
+$red:#860000;
+
+//redes sociales//
+$redes-sociales:(
+    x: black,
+    facebook: rgb(17, 17, 126),
+    instagram: rgb(199, 39, 87),
+    youtube: red,
+    tiktok: rgb(88, 7, 163),    
+);
+@each $redes, $color in $redes-sociales{
+.bi-#{$redes}{
+    background-color: $color;
+    &:hover{
+        box-shadow: 10px 10px 10px $color
+    }
+}
+}
+

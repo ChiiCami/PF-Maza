@@ -1,0 +1,50 @@
+/*MEDIA Q*/
+
+/* desktop a tablet*/
+@media (min-width: 481px) and (max-width: 780px){
+    h1 {
+      font-size: 250%;
+    }
+    .home-section p {
+      font-size:x-large;
+    }
+    .lanzamiento {
+      font-size: 150%;
+    }
+    .about-dreamcatcher p {
+      text-align: center;
+      line-height: 1.5;
+    }
+    .fanclub-section h3 {
+      font-weight: bold;
+      font-size: 150%;
+      text-align: center;
+      margin: 2rem;
+    }    
+    }
+    
+    /* a mobile*/
+    @media (min-width: 320px) and (max-width: 480px){
+    h1 {
+      font-size: 200%;
+    }
+    .home-section p {
+      font-size:large;
+      margin: 1rem;
+    }
+    .lanzamiento {
+      font-size: 100%;
+    }
+    .about-dreamcatcher p {
+      text-align: center;
+      line-height: 1.5;
+      margin: 1rem;
+    }
+    .fanclub-section h3 {
+      font-weight: bold;
+      font-size: 120%;
+      text-align: center;
+      margin: 2rem;
+    }    
+    }
+     /*fin de media querys*/

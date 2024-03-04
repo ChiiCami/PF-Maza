@@ -1,0 +1,33 @@
+/*footer*/
+.footer {
+    background-color:$bckgr-navbar-footer;
+    color: $font-color;
+    @include column-center;
+    font-size: small;
+    margin-top: 10rem;
+
+    &--contenedor{
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    &--enlaces{
+        a{
+            text-decoration: none;
+            color: $font-color;
+            font-size: 100%;
+            padding: 0.5rem;
+            text-align: justify;
+        }
+    }   
+    &--redes {
+        text-align: center;
+        margin: 1rem;
+    }  
+    p {
+        text-align: center;
+        margin-top: 1rem;
+    }   
+}
+  

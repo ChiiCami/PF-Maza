@@ -1,0 +1,12 @@
+/*contenido de about us*/
+.about-dreamcatcher {
+    @include flex-wrap;
+    justify-content: center;
+
+    p {
+        text-align: center;
+        line-height: 1.5;
+        margin: 2.5rem;
+        margin-bottom: 0;
+    }
+}

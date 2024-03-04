@@ -1,0 +1,20 @@
+//este es el archivo que contieen mi menu principal/
+//reset/
+@import './reset/variables';
+@import './reset/reset';
+@import './reset/mixin';
+@import './reset/layout';
+
+//estructura/
+@import 'header';
+@import 'principal';
+@import 'footer';
+
+//pages//
+@import 'about-us';
+@import 'members';
+@import 'discography';
+@import 'fans';
+
+//media queries//
+@import 'media-querys';
