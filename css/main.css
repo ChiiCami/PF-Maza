@@ -81,7 +81,7 @@ h1 {
   color: #fff;
   font-size: 300%;
   font-weight: bold;
-  padding: 5%;
+  padding: 2%;
   margin-bottom: 0;
 }
 
@@ -145,10 +145,19 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
 }
-.about-dreamcatcher p {
+.about-dreamcatcher h2 {
+  font-size: xx-large;
+  color: #860000;
+  padding: 3rem;
   text-align: center;
+  font-style: italic;
+}
+.about-dreamcatcher p {
+  text-align: justify;
   line-height: 1.5;
-  margin: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
   margin-bottom: 0;
 }
 
@@ -209,7 +218,10 @@ h1 {
 .fan-info p {
   text-align: justify;
   line-height: 1.5;
-  margin: 2.5rem;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 0;
 }
 .fan-info img {
   width: 18rem;
@@ -230,7 +242,10 @@ h1 {
 .fan-lightstick-info p {
   text-align: justify;
   line-height: 1.5;
-  margin: 2.5rem;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 0;
 }
 .fan-lightstick-info img {
   width: 18rem;
@@ -312,6 +327,18 @@ h1 {
     text-align: center;
     line-height: 1.5;
     margin: 1rem;
+  }
+  .about-dreamcatcher h2 {
+    font-size: x-large;
+    padding: 2rem;
+  }
+  .fan-info p {
+    margin: 2rem;
+    margin-bottom: 0;
+  }
+  .fan-lightstick-info p {
+    margin: 2rem;
+    margin-bottom: 0;
   }
   .fanclub-section h3 {
     font-weight: bold;

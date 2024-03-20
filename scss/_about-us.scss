@@ -2,11 +2,20 @@
 .about-dreamcatcher {
     @include flex-wrap;
     justify-content: center;
-
-    p {
+    h2 { 
+        font-size: xx-large;
+        color: $red; 
+        padding:3rem; 
         text-align: center;
+        font-style: $font-style-home;
+    }
+    p {
+        text-align: justify;
         line-height: 1.5;
-        margin: 2.5rem;
+        margin-top: 2rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
         margin-bottom: 0;
+
     }
 }
